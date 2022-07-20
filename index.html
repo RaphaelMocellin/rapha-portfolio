@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Rapha's Portfolio</title>
+
+    <!-- Bootstrapp import -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font awesome kit -->
+    <script
+      src="https://kit.fontawesome.com/6735997675.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Css Sheets -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <section id="title">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand rapha-nav" href="">Raphael Mocellin</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#features">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#hobbies">Hobbies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cta">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Title -->
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="meet-title">You can call me Rapha.</h1>
+            <div class="subtitle-container">
+              <h2>A web dev always studying new stuff.</h2>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img
+              class="rapha-profile-pic"
+              src="images\RaphaelProfilePic02.jpg"
+              alt="rapha-picture"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+
+    <section id="features">
+      <div class="features">
+        <div class="row">
+          <div class="feature-rec col-lg-4 col-md-4 col-sm-12 col-12">
+            <i class="features-icon fa-solid fa-circle-check fa-5x"></i>
+            <h3 class="features-title">Bilingual Dev</h3>
+            <p class="features-desc">
+              Advanced English skills and portuguese native speaker.
+            </p>
+          </div>
+          <div class="feature-rec col-lg-4 col-md-4 col-sm-12 col-12">
+            <i class="features-icon fa-solid fa-bullseye fa-5x"></i>
+            <h3 class="features-title">Key Technical Skills</h3>
+            <p class="features-desc">
+              React (Hooks), React Context, Firebase Database and
+              Styled-Components.
+            </p>
+          </div>
+          <div class="feature-rec col-lg-4 col-md-4 col-sm-12 col-12">
+            <i class="features-icon fa-solid fa-heart fa-5x"></i>
+            <h3 class="features-title">Soft Skills</h3>
+            <p class="features-desc">
+              Easy to comunicate, open-minded and always on good mood person!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projetcs -->
+
+    <section id="projects">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2 class="projects-text">Crwn Clothing E-Commerce</h2>
+            <p class="projects-description-text">
+              An e-ccomerce webApp with sections, produtcs, cart and checkout
+              page, made with React(hooks), React-Router, React Context,
+              Firebase (with authentication) and styled-components.
+            </p>
+            <a href="https://deft-manatee-9e5368.netlify.app/" target="_blank"
+              ><img
+                class="projects-image"
+                src="images\crw-clothin-ss.png"
+                alt="store-picture"
+            /></a>
+            <p class="projects-description-text">
+              Github Repo:
+              <a
+                class="repo-link"
+                href="https://github.com/RaphaelMocellin/crwn-clothing"
+                target="_blank"
+                >github.com/RaphaelMocellin/crwn-clothing</a
+              >
+            </p>
+          </div>
+          <div class="carousel-item">
+            <h2 class="projects-text">YelpCamp!</h2>
+            <p class="projects-description-text">
+              A large app to share nice places to camp with full CRUD
+              functionality, made with Node, Express, MongoDB (and mongoose),
+              RESTful routes, bootstrap and Mapbox to display geocoding locations on a fancy cluster map.
+            </p>
+            <a href="https://calm-shore-62251.herokuapp.com/" target="_blank"
+              ><img
+                class="projects-image"
+                src="images\yelpcamp-ss.png"
+                alt="camp-picture"
+            /></a>
+            <p class="projects-description-text">
+              Github Repo:
+              <a
+                class="repo-link"
+                href="https://github.com/RaphaelMocellin/Yelpcamp"
+                target="_blank"
+                >github.com/RaphaelMocellin/Yelpcamp</a
+              >
+            </p>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Courses -->
+
+    <section id="courses">
+      <h2 class="courses-text">These projects were made with the knowledge i've acquired from:</h2>
+      <img class="press-logo" src="images\udemy-logo.png" alt="tc-logo" />
+      <img class="press-logo" src="images\rocketseat-logo.png" alt="tnw-logo" />
+      <img class="press-logo" src="images\ztm-logo.png" alt="mashable-logo" />
+    </section>
+
+    <!-- Hobbies -->
+
+    <section id="hobbies">
+      <h2 class="section-heading">In my free time i usually..</h2>
+      <p>A simple man with a simple taste.</p>
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3">
+        <div class="hobbies-col col">
+          <div class="card h-100">
+            <div class="card-header">
+              <h3 class="hobbies-header">Games & Soccer</h3>
+            </div>
+            <div class="card-body">
+              <p>
+                I enjoy playing video games in PC or relax watching flamengo's
+                soccer matches on living room while eating snacks!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="hobbies-col col">
+          <div class="card h-100">
+            <div class="card-header">
+              <h3 class="hobbies-header">Cats</h3>
+            </div>
+            <div class="card-body">
+              <p>
+                I recently became a father of two cats: Thunder and Khaleesi! It's
+                been a huge pleasure to live with these two and im always taking
+                care of them.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="hobbies-col col mx-auto">
+          <div class="card h-100">
+            <div class="card-header">
+              <h3 class="hobbies-header">Wife and friends</h3>
+            </div>
+            <div class="card-body">
+              <p>
+                In 2022 i've celebrated a 10 year long bond with my wife Vivi,
+                and we still love our cinema sessions either in home or in local
+                movies theather.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+
+    <section id="cta">
+      <h3 class="cta-text">Get in touch using Whats app!</h3>
+      <h3 class="cta-text"><i class="cta-icon fa-brands fa-whatsapp"></i>+55 21 98056-0441</h3>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <div class="footer-icons">
+        <a class="footer-links" href="https://github.com/RaphaelMocellin?tab=repositories" target="_blank"><i class="footer-icon fa-brands fa-github"></i></a>
+        <a class="footer-links" href="https://www.linkedin.com/in/raphael-mocellin-b48a26235/" target="_blank"><i class="footer-icon fa-brands fa-linkedin"></i></a>
+      </div>
+      <p>Raphael Mocellin</p>
+    </footer>
+  </body>
+</html>
