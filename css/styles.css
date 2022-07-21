@@ -184,10 +184,10 @@
   text-decoration: none;
 }
 
-/*.footer-icons {
+/* .footer-icons {
   transform: scale(2.0);
   margin: 30px;
-}*/
+} */
 
 .footer-icon {
   transform: scale(2.0);
@@ -197,7 +197,6 @@
 
 .footer-icon:hover {
   transform: scale(2.7);
-}
 }
 
 /* HTML Tags  */
