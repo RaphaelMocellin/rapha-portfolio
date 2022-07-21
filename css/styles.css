@@ -190,12 +190,14 @@
 }*/
 
 .footer-icon {
-  margin: 15px;
+  transform: scale(2.0);
+  margin: 25px 25px;
   transition: .2s;
 }
 
 .footer-icon:hover {
-  transform: scale(1.7);
+  transform: scale(2.7);
+}
 }
 
 /* HTML Tags  */
